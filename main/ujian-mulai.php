@@ -92,7 +92,7 @@
                             /** Variable yang digunakan untuk submit secara otomatis di Form */
                             var frmSoal = document.getElementById("frmSoal"); 
                             alert('Waktu Anda telah habis');
-                            window.location.replace("ujian-regis.php");
+                            window.location.replace("end-session.php");
                         } 
                     } 
                 } 
@@ -309,7 +309,7 @@
 							if($halaman < $total_halaman) { 
 								jump('ujian-mulai.php?halaman='.$next);
 							}else{
-								jump('ujian-wait.php');
+								jump('end-session.php');
 							}
 						}
 					}
