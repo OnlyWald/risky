@@ -91,8 +91,8 @@
                             clearInterval(hitung); 
                             /** Variable yang digunakan untuk submit secara otomatis di Form */
                             var frmSoal = document.getElementById("frmSoal"); 
-                            alert('Waktu Anda telah habis, Jika ingin mencoba lagi silahkan dihapus dulu SESSION browser anda');
-                            frmSoal.submit(); 
+                            alert('Waktu Anda telah habis');
+                            window.location.replace("ujian-regis.php");
                         } 
                     } 
                 } 

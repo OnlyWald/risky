@@ -33,8 +33,9 @@
 					<label for="absen" class="font-weight-bold">Token</label>
 				    <input type="text" class="form-control" id="absen" name="token" maxlength="5" required>
 				</div>
-				<div class="d-flex flex-row-reverse">
-					<button type="submit" class="btn btn-success align-content-end" name="login">MASUK</button>
+				<div class="d-flex">
+					<button type="button" class="btn btn-warning" onclick="window.location.href='ujian-regis.php'">BATAL</button>
+					<button type="submit" class="btn btn-success d-flex ml-auto" name="login">MASUK</button>
 				</div>
 			</form>
 		  </div>

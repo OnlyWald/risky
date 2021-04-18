@@ -71,9 +71,15 @@
 					 	<input id="token" name="token" class="form-control" type="text" placeholder="Token.." aria-label="readonly input example" readonly style="max-width: 10rem;" value="<?php echo acak(5);?>">
 					 </div>
 				</div>
-				<div class="d-flex flex-row-reverse">
-					<button type="submit" class="btn btn-success align-content-end" name="daftar">DAFTAR</button>
+				<div class="d-flex">
+					<div>
+						<a href="ujian-login.php">Masuk Dengan Token</a>
+					</div>
+					<div class="d-flex ml-auto">
+						<button type="submit" class="btn btn-success align-content-end" name="daftar">DAFTAR</button>
+					</div>
 				</div>
+				
 			</form>
 		  </div>
 		</div>
