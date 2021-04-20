@@ -343,7 +343,7 @@
 								if($halaman < $total_halaman) { 
 									jump('ujian-mulai.php?halaman='.$next);
 								}else{
-									jump('ujian-wait.php');
+									jump('end-session.php');
 								}
 							}
 						}
@@ -370,7 +370,7 @@
 							if($halaman < $total_halaman) { 
 								jump('ujian-mulai.php?halaman='.$next);
 							}else{
-								jump('ujian-wait.php');
+								jump('end-session.php');
 							}
 						}
 					}
@@ -388,7 +388,7 @@
 							if($halaman < $total_halaman) { 
 								jump('ujian-mulai.php?halaman='.$next);
 							}else{
-								jump('ujian-wait.php');
+								jump('end-session.php');
 							}
 						}
 					}
@@ -404,7 +404,7 @@
 								if($halaman < $total_halaman) { 
 									jump('ujian-mulai.php?halaman='.$next);
 								}else{
-									jump('ujian-wait.php');
+									jump('end-session.php');
 								}
 							}
 						}
@@ -430,7 +430,7 @@
 							if($halaman < $total_halaman) { 
 								jump('ujian-mulai.php?halaman='.$next);
 							}else{
-								jump('ujian-wait.php');
+								jump('end-session.php');
 							}
 						}
 					}
